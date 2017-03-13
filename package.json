@@ -1,0 +1,22 @@
+{
+  "name": "cohort-xx-day-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apps/andelabs.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itunuworks/cohort-xx-day-2.git"
+  },
+  "author": "Itunuloluwa Fatoki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itunuworks/cohort-xx-day-2/issues"
+  },
+  "homepage": "https://github.com/itunuworks/cohort-xx-day-2#readme"
+}
