@@ -1,4 +1,4 @@
-require('../apps/andelabs.js');
+var words = require('../apps/andelabs.js').words;
 
 describe("words()", function() {
   it("counts one word", function() {
