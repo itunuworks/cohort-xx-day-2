@@ -1,6 +1,7 @@
 'use strict';
 
 var request = require('request');
+var program = require('commander');
 var key = 'AIzaSyDAHnquUK1gDOTDWE8TZDn9YM6CEP6WSrM';
 
 function getLongUrl(shortUrl){
@@ -18,4 +19,14 @@ function getLongUrl(shortUrl){
 	})
 }
 
-getLongUrl('http://goo.gl/BzpZ54');
+//getLongUrl('http://goo.gl/BzpZ54');
+
+program
+  	.arguments('<add>')
+  	.action(function(add){
+  		getLongUrl(add);
+  	})
+  	.parse(process.argv);
+
+
+
